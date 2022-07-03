@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: url("./img/bg.jpg");
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  height: 200px;
+}
+
+header img {
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
